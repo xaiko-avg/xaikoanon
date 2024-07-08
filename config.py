@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("23662925"))
+API_HASH = getenv("ff835a1cef536b0abd6c95724264e626")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7036038800:AAHnpCghUS_q9v4EgSSA2L03AXuOVzLHluo")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://xaikomusic:vipmongo@vipmongo.2sp5lfs.mongodb.net/?retryWrites=true&w=majority&appName=vipmongo", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1001853173482", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1831850761))
+OWNER_ID = int(getenv("OWNER_ID", 6474577612))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/hakutakaid/AnonFork.git",
+    "https://github.com/xaiko-avg/xaiko-avg.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
