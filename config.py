@@ -14,7 +14,7 @@ API_HASH = getenv("ff835a1cef536b0abd6c95724264e626")
 BOT_TOKEN = getenv("7036038800:AAHnpCghUS_q9v4EgSSA2L03AXuOVzLHluo")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://xaikomusic:vipmongo@vipmongo.2sp5lfs.mongodb.net/?retryWrites=true&w=majority&appName=vipmongo", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
