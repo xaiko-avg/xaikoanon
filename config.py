@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("23662925"))
-API_HASH = getenv("ff835a1cef536b0abd6c95724264e626")
+API_ID = int(getenv(""))
+API_HASH = getenv("")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7036038800:AAHnpCghUS_q9v4EgSSA2L03AXuOVzLHluo")
+BOT_TOKEN = getenv("")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/xaiko-avg/xaiko-avg.git",
+    "https://github.com/xaiko-avg/xaikoanon.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
